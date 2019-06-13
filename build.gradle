@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group = 'de.hexad'
+version = '1.0.0'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile("com.github.fge:json-patch:1.9")
+    testImplementation('org.junit.jupiter:junit-jupiter-api:5.4.2')
+    testRuntime('org.junit.jupiter:junit-jupiter-engine:5.4.2')
+}
